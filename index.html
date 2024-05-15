@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="AddOrRemove" style = "display : none">
+        <div id="ItemName">IPOD</div>
+        <div class="icon-delete"></div>
+    </section>
+    <main>
+        <header>EXPENSE TRACKER</header>
+        <section class="AddName">
+            <div class="title">Item Name: </div>
+            <input id="name"  type="text" placeholder="Enter item name">
+        </section>
+        <section class="AddAmount">
+            <div class="title">Item Amount:</div>
+            <input id="price" type="number" placeholder="Enter item amount">
+        </section>
+        <section class="btn">
+            <button id="AddItem">Add Item</button>
+            <button id="ClearAll">Clear All</button>
+        </section>
+        <section id="DisplayBar">
+            <div class="elements">
+            </div>
+        </section>
+        <section id="amount">0.00</section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
